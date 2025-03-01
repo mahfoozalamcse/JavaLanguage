@@ -58,6 +58,7 @@ public class chapter1 {
             System.out.println("Quotient: " + (num1 / num2));
         } else {
             System.out.println("Cannot divide by zero!");
+            
         }
 
         sc.close();
