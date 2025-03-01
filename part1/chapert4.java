@@ -34,7 +34,9 @@ public class chapert4 {
     }
 
     public static void CONTINUE(){
+
         for (int i = 1; i <= 5; i++) {
+            
             if (i == 3) {
                 continue; // Skips when i = 3
             }
