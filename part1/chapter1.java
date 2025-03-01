@@ -50,7 +50,9 @@ public class chapter1 {
 
         // Performing arithmetic operations
         System.out.println("Sum: " + (num1 + num2));
+        
         System.out.println("Difference: " + (num1 - num2));
+
         System.out.println("Product: " + (num1 * num2));
 
         // Handling division by zero case
@@ -58,7 +60,7 @@ public class chapter1 {
             System.out.println("Quotient: " + (num1 / num2));
         } else {
             System.out.println("Cannot divide by zero!");
-            
+
         }
 
         sc.close();
