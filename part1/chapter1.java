@@ -60,7 +60,7 @@ public class chapter1 {
             System.out.println("Cannot divide by zero!");
         }
 
-       // sc.close();
-       
+        sc.close();
+
     }
 }
