@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class chapter2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
  
      // find largest in 3 number use ternary
      
