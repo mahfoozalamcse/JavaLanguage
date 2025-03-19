@@ -4,7 +4,7 @@ public class chapter3 {
         if (num > 0) { 
             System.out.println("Positive number");
         } 
-    }
+    } 
 
     public static void IFELSE(){
         int num = -5; 
