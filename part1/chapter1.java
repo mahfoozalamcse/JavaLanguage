@@ -13,7 +13,7 @@ public class chapter1 {
 
         // comprision
         System.out.println(a > b);  // true
-        System.out.println(a < b);  // false
+        System.out.println(a < b);  // false 
         System.out.println(a == b); // false
         System.out.println(a != b); // true
 
