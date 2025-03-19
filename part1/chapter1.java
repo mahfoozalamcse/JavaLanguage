@@ -1,7 +1,7 @@
 import java.util.Scanner;
  
 public class chapter1 { 
- 
+  
     public static void main(String[] args) {
        // arithmetic operation
         int a = 10, b = 5; 
