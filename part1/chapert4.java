@@ -6,7 +6,7 @@ public class chapert4 {
     }
 
     public static void WHILE(){
-        int i = 1;
+        int i = 1; 
         while (i <= 5) {
             System.out.println("Hello " + i);
             i++;
