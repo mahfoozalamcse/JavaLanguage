@@ -10,7 +10,7 @@ public class chapert4 {
         while (i <= 5) {
             System.out.println("Hello " + i);
             i++;
-        } 
+        }  
     }
 
     public static void DOWHILELOOP(){
