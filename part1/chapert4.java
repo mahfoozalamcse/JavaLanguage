@@ -2,7 +2,7 @@ public class chapert4 {
     public static void FORLOOP(){
         for (int i = 1; i <= 5; i++) { 
             System.out.println("Hello " + i);
-        }
+        } 
     } 
    
     public static void WHILE(){
