@@ -46,6 +46,7 @@ public class swap {
             long b1 = a1;
             float c1 = b1;
             System.out.println(c1);
+            
 
             // narraow conversion
          long l = 10;
