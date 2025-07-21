@@ -10,6 +10,7 @@ public class NonPrimitive {
      }
     public static void main(String[] args) {
         NonPrimitive p = new NonPrimitive();
+        
        p.x = 10;
        p.y = 20;
        System.out.println();
