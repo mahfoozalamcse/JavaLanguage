@@ -32,6 +32,11 @@ public class InputOutput {
     //System.out.format();
     // System.out.printf();
 
+
+    // escape sequence 
+    System.out.print("Hi,/n Welcome mahfooz");
+    System.out.println();
+    System.out.println("c:\\xys\\abc.txt");
    
    }  
 }
