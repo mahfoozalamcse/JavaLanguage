@@ -34,6 +34,52 @@ public class Problemarray {
         return count;
     }
 
+    public static int countDistinct3(int arr[]){
+         int count = 0; boolean isdistinct = true;
+         for(int i=0; i<arr.length; i++){
+            for(int j=(i-1); j>=0; j--){
+                if (arr[i] == arr[j]) {
+                    isdistinct = false;
+                    break;
+                }
+            }
+            if (isdistinct == true) {
+                count++;
+            }
+         }
+         return count+1;
+    }
+
+    // maximum in array
+    public static int maximum(int arr[]){
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+
+    // sum of array
+    public static int sumOfArray(int arr[]){
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        System.out.println(" Sum of the array is : "+ sum);
+        return sum;
+    }
+
+    // average of array
+    public static void averageArray(int arr[]){
+        int n = arr.length;
+        int sum = sumOfArray(arr);
+        int average = sum / n;
+        System.out.println("Average array is : "+ average);
+    }
+
+
     public static void main(String[] args) {
         System.out.println();
         // int arr[] = {12, 67, 90, 91};
@@ -44,6 +90,11 @@ public class Problemarray {
         // System.out.println(countDistinct(arr));
 
         // return count distinct
-        System.out.println(countDistinct2(arr));
+       // System.out.println(countDistinct2(arr));
+       System.out.println(countDistinct3(arr));
+
+       int arr3[] = {1, 2, 3, 4, 5};
+       averageArray(arr3);
+
     }
 }
