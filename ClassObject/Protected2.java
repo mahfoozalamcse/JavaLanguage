@@ -11,4 +11,6 @@ class Protected2 extends Protected1{
  * default -> within the package
  * protected -> within package and child class of other package
  * public -> Any where
+ * 
+ * recomendation use private strictaly that not loose its value
  */
