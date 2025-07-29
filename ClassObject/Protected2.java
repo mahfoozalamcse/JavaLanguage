@@ -1,5 +1,5 @@
 package ClassObject;
-import ClassObject.Protected1;
+// import ClassObject.Protected1;
 class Protected2 extends Protected1{
     public static void main(String[] args) {
         Protected2 d = new Protected2();
