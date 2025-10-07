@@ -38,6 +38,7 @@ public class intro1 {
      public static void main(String[] args) {
         System.out.println("Hello , JAVA!");
      }
+     
 
      // 1. Class Defination
      /*
