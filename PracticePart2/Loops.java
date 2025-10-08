@@ -3,7 +3,7 @@ import java.util.*;;
 
 public class Loops {
    
-    public static void main(String[] args) {
+    public static void main(StringPractice[] args) {
 
         // Q1. Print numbers from 1 to 10 using For loop
         System.out.print("Q1 Numbers 1 to 10: ");

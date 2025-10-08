@@ -26,14 +26,14 @@ public class basic1 {
 
     // Class and Object
     static class Student {
-       String name;
+       StringPractice name;
        int age;
 
     }
 
     // 
 
-    public static void main(String[] args) {
+    public static void main(StringPractice[] args) {
         // System.out.println("Hello.. ");
         // variables();
 

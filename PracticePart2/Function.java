@@ -1,24 +1,24 @@
 package PracticePart2;
 
 public class Function {
-   
-    //  1 Simple Function: Print Hello (No return, No param)
+
+    // 1. Simple Function: Print Hello (No return, No param)
     static void sayHello() {
         System.out.println("Hello, Welcome to FAANG Java Prep!");
     }
 
-    //  2 Function with Parameters and Return Type
+    // 2. Function with Parameters and Return Type
     static int add(int a, int b) {
         return a + b;
     }
 
-    // 3 Function Returning Factorial (Recursion)
+    // 3. Function Returning Factorial (Recursion)
     static long factorial(int n) {
         if (n == 0 || n == 1) return 1;
         return n * factorial(n - 1);
     }
 
-    //  4 Function to Check Prime
+    // 4. Function to Check Prime
     static boolean isPrime(int n) {
         if (n <= 1) return false;
         for (int i = 2; i * i <= n; i++) {
@@ -27,7 +27,7 @@ public class Function {
         return true;
     }
 
-    //  5 Function Overloading Example
+    // 5. Function Overloading Example
     static int multiply(int a, int b) {
         return a * b;
     }
@@ -36,7 +36,7 @@ public class Function {
         return a * b;
     }
 
-    // 6 Function to Find Max of Array
+    // 6. Function to Find Max of Array
     static int findMax(int[] arr) {
         int max = arr[0];
         for (int val : arr) {
@@ -45,13 +45,13 @@ public class Function {
         return max;
     }
 
-    //  7 Recursive Function: Fibonacci
+    // 7. Recursive Function: Fibonacci
     static int fibonacci(int n) {
         if (n <= 1) return n;
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
-    //  8 Function to Reverse a String
+    // 8. Function to Reverse a String
     static String reverse(String str) {
         String rev = "";
         for (int i = str.length() - 1; i >= 0; i--) {
@@ -60,12 +60,12 @@ public class Function {
         return rev;
     }
 
-    //  9 Function to Check Palindrome String
+    // 9. Function to Check Palindrome String
     static boolean isPalindrome(String str) {
         return str.equals(reverse(str));
     }
 
-    // 10 Function with Default Arguments Concept (Overloading)
+    // 10. Function with Default Arguments Concept (Overloading)
     static void greet() {
         System.out.println("Hello, User!");
     }
@@ -74,21 +74,20 @@ public class Function {
         System.out.println("Hello, " + name + "!");
     }
 
-    // 11 Function to Calculate Power (Recursion)
+    // 11. Function to Calculate Power (Recursion)
     static int power(int base, int exp) {
         if (exp == 0) return 1;
         return base * power(base, exp - 1);
     }
 
-    //  12 Function Using Pass-by-Value
+    // 12. Function Using Pass-by-Value
     static void increment(int x) {
         x++;
         System.out.println("Inside function x = " + x);
     }
 
-    
     public static void main(String[] args) {
-        System.out.println(" Java Function Practice (Google/FAANG)");
+        System.out.println("Java Function Practice (Google/FAANG)");
 
         // Q1
         sayHello();
@@ -133,5 +132,3 @@ public class Function {
         System.out.println("After function x = " + val + " (Pass by Value)");
     }
 }
-
-

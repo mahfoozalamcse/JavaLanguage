@@ -2,7 +2,7 @@ package PracticePart2;
 
 public class Operators {
     
-    public static void main(String[] args) {
+    public static void main(StringPractice[] args) {
 
         //Q1. Find Maximum of Three Numbers using Ternary Operator
         int a = 12, b = 25, c = 7;

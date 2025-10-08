@@ -3,7 +3,7 @@ import java.util.*;
 
 public class FlowControl {
     
-    public static void main(String[] args) {
+    public static void main(StringPractice[] args) {
 
         // Q1. If-Else: Check eligibility for driving
         int age = 17;

@@ -41,7 +41,7 @@ static class Product {
 }
 
 
-    public static void main(String[] args) {
+    public static void main(StringPractice[] args) {
         Product p1 = new Product();
         p1.name = "Laptop";
         p1.price = 55000.99;
