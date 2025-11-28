@@ -41,6 +41,7 @@ public class Encapsulation {
         return age;
     }
 
+   
     // Setter with validation
     public void setAge(int age) {
         if (age > 0 && age < 100) {
