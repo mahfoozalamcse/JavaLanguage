@@ -14,6 +14,7 @@ public class Pattern {
                 System.out.print(i);
             }
             System.out.println();
+            
         }
 
         // single line
