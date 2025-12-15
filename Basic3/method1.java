@@ -15,6 +15,7 @@ public class method1 {
     }
     // main is also method
     public static void main(String[] args) {
+        
         fun1();
         fun(12, 23);
         fun(12, 23);
