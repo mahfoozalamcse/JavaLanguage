@@ -10,6 +10,7 @@ public class Abstraction {
     }
 }
 
+
 abstract class Shape{
   int color;
   int getColor(){
