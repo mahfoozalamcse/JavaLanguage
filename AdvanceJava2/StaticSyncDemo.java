@@ -18,6 +18,7 @@ class CustomerThread extends Thread {
     }
 }
 
+
 public class StaticSyncDemo {
     public static void main(String[] args) {
         CustomerThread t1 = new CustomerThread("Alice");
