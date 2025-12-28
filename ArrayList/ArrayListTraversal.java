@@ -15,7 +15,6 @@ public class ArrayListTraversal {
             int x = al.get(i);
             al.set(i, x*2);
         }
-
         System.out.println(al);
     }
 }
