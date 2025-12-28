@@ -19,6 +19,7 @@ abstract class Shape{
   Shape(int c){
     color = c;
   }
+    
   abstract double getArea();
 }
 
