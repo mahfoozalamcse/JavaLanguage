@@ -11,6 +11,7 @@ public class ProblemBasic {
             n--;
         }
         return sum;
+        
     }
 
     // find last digit
