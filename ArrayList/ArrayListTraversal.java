@@ -10,7 +10,6 @@ public class ArrayListTraversal {
         al.add(20);
         al.add(30);
         
-
         for (int i=0; i<al.size(); i++) {
             int x = al.get(i);
             al.set(i, x*2);
