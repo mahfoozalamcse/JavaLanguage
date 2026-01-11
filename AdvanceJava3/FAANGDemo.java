@@ -7,6 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 // Task class
 class Task implements Serializable {
+        
     private static final long serialVersionUID = 1L;
     String name;
     int priority;
