@@ -10,6 +10,7 @@ public class method1 {
     public static void fun2(){
         System.out.println("Inside fun2");
     }
+    
     public static void fun(int a, int b){
       System.out.println(a+b);
     }
