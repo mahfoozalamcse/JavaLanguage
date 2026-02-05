@@ -14,6 +14,7 @@ public class Array2 {
           return "( " + x + " " + y + ")";
         }
     }
+    
     public static void main(String[] args) {
         System.out.println();
         int a[] = new int[4];
