@@ -14,7 +14,7 @@ public class MultidimensionalArr {
         //     }
         //     System.out.println();
         // }
-
+        
         // other way
         int n = 2, m = 3;
         int arr2[][] = new int[n][m];
