@@ -9,7 +9,6 @@ public class problem {
 
        return n;
     }
-
     // prime factorization
     public static boolean isPrime(int n){
         for(int i=2; i<n; i++){

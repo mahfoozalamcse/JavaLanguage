@@ -9,6 +9,7 @@ public class Constructor {
     void print(){
         System.out.println("x = "+x + ", y = "+ y);
     }
+    
     public static void main(String[] args) {
        Constructor c = new Constructor(10, 20);
        c.print(); 

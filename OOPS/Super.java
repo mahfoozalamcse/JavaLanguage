@@ -10,6 +10,7 @@ public class Super {
 class B extends Super{
     int x = 200;
     B(){
+        
         super(); // call Super constructor
         System.out.println(" B constructor");
         System.out.println(" x in Super " + super.x); // Acces Super x

@@ -18,6 +18,7 @@ class SharedCounter {
     }
 }
 
+
 public class LockDemo {
     public static void main(String[] args) {
         SharedCounter counter = new SharedCounter();

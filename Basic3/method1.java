@@ -7,14 +7,18 @@ public class method1 {
         fun2();
     }
     // method2
+    
     public static void fun2(){
         System.out.println("Inside fun2");
     }
+    
     public static void fun(int a, int b){
       System.out.println(a+b);
     }
     // main is also method
+    
     public static void main(String[] args) {
+        
         fun1();
         fun(12, 23);
         fun(12, 23);

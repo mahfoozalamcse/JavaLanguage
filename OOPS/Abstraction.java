@@ -10,6 +10,7 @@ public class Abstraction {
     }
 }
 
+
 abstract class Shape{
   int color;
   int getColor(){
@@ -18,6 +19,7 @@ abstract class Shape{
   Shape(int c){
     color = c;
   }
+    
   abstract double getArea();
 }
 
