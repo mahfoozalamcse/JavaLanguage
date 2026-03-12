@@ -13,7 +13,6 @@ public class ProblemBasic {
         return sum;
         
     }
-
     // find last digit
     public static int lastDigit(int n){
       if (n<10 && n > 0) {
