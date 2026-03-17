@@ -8,6 +8,7 @@ public class Array2 {
         Point(int a, int b){
             x = a;
             y = b;
+            
         }
         @Override
         public String toString(){
