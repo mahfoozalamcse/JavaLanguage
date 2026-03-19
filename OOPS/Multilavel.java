@@ -19,6 +19,7 @@ class Child extends Parent{
     }
 }
 
+
 class Test{
     public static void main(String[] args) {
         Child c = new Child();
