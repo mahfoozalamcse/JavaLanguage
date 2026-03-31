@@ -6,7 +6,6 @@ public class Final {
      * Method no overriding
      * class no inheritance
      */
-    
      // instance final 
      final int y = 10;
      final int z;
