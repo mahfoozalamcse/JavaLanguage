@@ -9,7 +9,6 @@ public class Final {
      // instance final 
      final int y = 10;
      final int z;
-
      Final(){ // perfectly fine
         z = 30;
      }
