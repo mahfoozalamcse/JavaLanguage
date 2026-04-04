@@ -9,7 +9,6 @@ public class ClassObject1 {
         real = r;
         image = i;
     
-    
 
     public void add(ClassObject1 c){
         real = real + c.real;
