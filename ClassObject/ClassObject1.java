@@ -8,7 +8,8 @@ public class ClassObject1 {
     ClassObject1(int r, int i){
         real = r;
         image = i;
-    }
+    
+    
 
     public void add(ClassObject1 c){
         real = real + c.real;
