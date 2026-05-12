@@ -136,5 +136,11 @@ public class StringJava {
 
        StringBuilder sb13 = new StringBuilder("mahfooz");
        System.out.println(sb13.toString());
+
+
+       // example intern
+       String s2 = new String("java");
+        String s3 = s1.intern();
+       System.out.println(s2 == s3); // false
      }
 }
