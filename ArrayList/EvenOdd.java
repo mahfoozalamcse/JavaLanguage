@@ -12,7 +12,6 @@ public class EvenOdd {
 
       arr.add(21);
       arr.add(23);
-      
 
       ArrayList<Integer> even = new ArrayList<>();
       ArrayList<Integer> odd = new ArrayList<>();

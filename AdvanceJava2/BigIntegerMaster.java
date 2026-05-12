@@ -2,7 +2,6 @@ package AdvanceJava2;
 import java.math.*;
 
 public class BigIntegerMaster {
-  
     public static BigInteger factorial(int n) {
         BigInteger fact = BigInteger.ONE;
         for (int i = 2; i <= n; i++)
